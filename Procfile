@@ -1,3 +1,3 @@
-web: gunicorn fitness_tracker.wsgi --log-file -
+web: gunicorn fitness_tracker.wsgi:application
 
 
